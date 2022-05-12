@@ -83,9 +83,6 @@ struct ScoringView: View {
             }
             .navigationBarHidden(true)
         }
-        //        .onAppear {
-        //            dataModel.clearData()
-        //        }
     }
 
 

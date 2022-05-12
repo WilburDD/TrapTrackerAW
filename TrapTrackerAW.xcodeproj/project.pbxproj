@@ -12,9 +12,6 @@
 		3E88493A2824E3C800AA4BFF /* TrapTrackerAW WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E8849392824E3C800AA4BFF /* TrapTrackerAW WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3E88493F2824E3C800AA4BFF /* TrapTrackerAWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88493E2824E3C800AA4BFF /* TrapTrackerAWApp.swift */; };
 		3E8849412824E3C800AA4BFF /* ScoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8849402824E3C800AA4BFF /* ScoringView.swift */; };
-		3E8849432824E3C800AA4BFF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8849422824E3C800AA4BFF /* NotificationController.swift */; };
-		3E8849452824E3C800AA4BFF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8849442824E3C800AA4BFF /* NotificationView.swift */; };
-		3E8849472824E3C800AA4BFF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8849462824E3C800AA4BFF /* ComplicationController.swift */; };
 		3E8849492824E3C900AA4BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8849482824E3C900AA4BFF /* Assets.xcassets */; };
 		3E88494C2824E3C900AA4BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E88494B2824E3C900AA4BFF /* Preview Assets.xcassets */; };
 		3E8849602828C10800AA4BFF /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88495F2828C10700AA4BFF /* DayView.swift */; };
@@ -71,9 +68,6 @@
 		3E8849392824E3C800AA4BFF /* TrapTrackerAW WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrapTrackerAW WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E88493E2824E3C800AA4BFF /* TrapTrackerAWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapTrackerAWApp.swift; sourceTree = "<group>"; };
 		3E8849402824E3C800AA4BFF /* ScoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringView.swift; sourceTree = "<group>"; };
-		3E8849422824E3C800AA4BFF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		3E8849442824E3C800AA4BFF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		3E8849462824E3C800AA4BFF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		3E8849482824E3C900AA4BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E88494B2824E3C900AA4BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E88494D2824E3C900AA4BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,9 +123,6 @@
 				3E884969282A07CF00AA4BFF /* DataModel.swift */,
 				3E8849402824E3C800AA4BFF /* ScoringView.swift */,
 				3E8849672828EDD000AA4BFF /* GetPositionView.swift */,
-				3E8849422824E3C800AA4BFF /* NotificationController.swift */,
-				3E8849442824E3C800AA4BFF /* NotificationView.swift */,
-				3E8849462824E3C800AA4BFF /* ComplicationController.swift */,
 				3E8849482824E3C900AA4BFF /* Assets.xcassets */,
 				3E88494D2824E3C900AA4BFF /* Info.plist */,
 				3E88494E2824E3C900AA4BFF /* PushNotificationPayload.apns */,
@@ -275,14 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8849432824E3C800AA4BFF /* NotificationController.swift in Sources */,
 				3E8849412824E3C800AA4BFF /* ScoringView.swift in Sources */,
 				3E8849682828EDD000AA4BFF /* GetPositionView.swift in Sources */,
 				3E8849602828C10800AA4BFF /* DayView.swift in Sources */,
-				3E8849472824E3C800AA4BFF /* ComplicationController.swift in Sources */,
 				3E88496A282A07CF00AA4BFF /* DataModel.swift in Sources */,
 				3E88493F2824E3C800AA4BFF /* TrapTrackerAWApp.swift in Sources */,
-				3E8849452824E3C800AA4BFF /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
