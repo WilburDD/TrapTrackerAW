@@ -12,10 +12,12 @@ struct TrapTrackerAWApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                DayView(dataModel: DataModel())
             }
         }
-
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }
+
+//        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+//    }
+//}

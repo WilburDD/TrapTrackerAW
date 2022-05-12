@@ -1,20 +1,20 @@
 //
-//  NotificationView.swift
-//  TrapTrackerAW WatchKit Extension
+////  NotificationView.swift
+////  TrapTrackerAW WatchKit Extension
+////
+////  Created by Doxie Davis on 5/6/22.
+////
 //
-//  Created by Doxie Davis on 5/6/22.
+//import SwiftUI
 //
-
-import SwiftUI
-
-struct NotificationView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
-
-struct NotificationView_Previews: PreviewProvider {
-    static var previews: some View {
-        NotificationView()
-    }
-}
+//struct NotificationView: View {
+//    var body: some View {
+//        Text("Hello, World!")
+//    }
+//}
+//
+//struct NotificationView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NotificationView()
+//    }
+//}
